@@ -1,0 +1,234 @@
+.article_conteneur{
+    display: flex;
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Marker Felt, fantasy;
+}
+
+/* conteneur 1 */
+.cont_1 {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.cont_1_1 {
+    display: flex;
+    overflow: scroll;
+    height: 20vh;
+    width: 350px;
+    flex-direction: column;
+    border: 3px solid black;
+    background-color: rgb(79, 79, 79);
+    color: rgb(255, 255, 255);
+}
+
+.cont_1_1 p {
+    margin-top: 20px;
+}
+.cont_1_1 h1 {
+    margin-top: 20px;
+}
+
+.cont_1_2 {
+    display: flex;
+    height: 20vh;
+    width: 350px;
+    overflow: scroll;
+    flex-direction: column;
+    border: 3px solid black;
+    background-color: rgb(79, 79, 79);
+    color: rgb(255, 255, 255);
+}
+.cont_1_2 h1 {
+    margin-top: 20px;
+}
+.cont_1_2 p {
+    margin-top: 20px;
+}
+
+.cont_1_3 {
+    display: flex;
+    height: 20vh;
+    width: 350px;
+    overflow: scroll;
+    flex-direction: column;
+    border: 3px solid black;
+    background-color: rgb(79, 79, 79);
+    color: rgb(255, 255, 255);
+}
+.cont_1_3 h1 {
+    margin-top: 20px;
+}
+
+.cont_1_3 p {
+    margin-top: 20px;
+}
+
+/* conteneur 2 */
+.cont_2 {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-right: 10px;
+   
+}
+
+.cont_2_1 {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 350px;
+    overflow: scroll;
+    border: 3px solid black;
+    background-color: rgb(79, 79, 79);
+    color: rgb(255, 255, 255);
+}
+.cont_2_1 h1 {
+    margin-top: 20px;
+}
+
+.cont_2_1 p {
+    margin-top: 30px;
+}
+
+.cont_2_2 {
+    display: flex;
+    height: 20vh;
+    width: 350px;
+    flex-direction: column;
+    border: 3px solid black;
+    background-color: rgb(79, 79, 79);
+    overflow: scroll;
+    color: rgb(255, 255, 255);
+}
+
+.cont_2_2 h1 {
+    margin-top: 20px;
+}
+.cont_2_2 p {
+    margin-top: 30px;
+}
+
+.cont_2_3 {
+    display: flex;
+    height: 20vh;
+    width: 350px;
+    overflow: scroll;
+    flex-direction: column;
+    border: 3px solid black;
+    background-color: rgb(79, 79, 79);
+    color: rgb(255, 255, 255);
+}
+.cont_2_3 h1 {
+    margin-top: 20px;
+}
+
+.cont_2_3 p {
+    margin-top: 30px;
+}
+
+/* conteneur 3 */
+.cont_3 {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  
+}
+
+.cont_3_1 {
+    display: flex;
+    height: 20vh;
+    width: 350px;
+    overflow: scroll;
+    flex-direction: column;
+    border: 3px solid black;
+    background-color: rgb(79, 79, 79);
+    color: rgb(255, 255, 255);
+}
+.cont_3_1 h1 {
+    margin-top: 20px;
+}
+
+.cont_3_1 p {
+    margin-top: 30px;
+}
+
+.cont_3_2 {
+    display: flex;
+    height: 20vh;
+    width: 350px;
+    overflow: scroll;
+    flex-direction: column;
+    border: 3px solid black;
+    background-color: rgb(79, 79, 79);
+    color: rgb(255, 255, 255);
+}
+.cont_3_2 h1 {
+    margin-top: 20px;
+}
+
+.cont_3_2 p {
+    margin-top: 30px;
+}
+
+.cont_3_3 {
+    display: flex;
+    height: 20vh;
+    width: 350px;
+    overflow: scroll;
+    flex-direction: column;
+    border: 3px solid black;
+    background-color: rgb(79, 79, 79);
+    color: rgb(255, 255, 255);
+}
+.cont_3_3 h1 {
+    margin-top: 20px;
+}
+
+.cont_3_3 p {
+    margin-top: 30px;
+}
+
+
+
+
+@media (max-width: 1105px){
+    .article_conteneur{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        overflow: scroll;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont_1 {
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-right: 0px;
+    }
+    .cont_2 {
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-right: 0px;
+    }
+    .cont_3 {
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,137 @@
+footer {
+    width: 100%;
+    margin-top: 30px;
+    height: 30vh;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 8px solid black;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Partie gauche : Logos et liens */
+.f_1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-img {
+    height: 100px; /* Hauteur uniforme */
+    width: auto;   /* Largeur calculée automatiquement pour conserver le ratio */
+}
+
+.informations {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.informations div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.informations h2 {
+    font-size: 1rem;
+    color: #555;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.informations h2:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* Partie droite : Politique de confidentialité */
+.confidentialité {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.conf_p {
+    width: 50%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.confidentialité h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.confidentialité p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+@media(max-width: 1015px) {
+    footer {
+        flex-direction: column;  
+        align-items: center;   
+        height: auto;           
+        padding: 20px 0;        
+    }
+
+    .f_1, .confidentialité {
+        width: 100%;           
+        justify-content: center;  
+        margin-bottom: 20px;   
+    }
+
+    .info_logo, .logo, .informations {
+        flex-direction: column;  
+        gap: 10px;              
+    }
+
+    .logo-img {
+        height: 80px; 
+    }
+
+    .conf_p {
+        width: 80%; 
+        padding: 15px; 
+    }
+
+    .confidentialité h2 {
+        font-size: 1.2rem; 
+    }
+
+    .confidentialité p {
+        font-size: 0.9rem; 
+    }
+}
