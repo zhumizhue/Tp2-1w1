@@ -1,3 +1,5 @@
+/* conteneur flex pour la galerie */
+
 .conteneur_galerie {
   height: 100vh;
   width: 100%;
@@ -7,6 +9,7 @@
   justify-content: space-around;
 }
 
+/* règles de style pour la bannière en pixel art (gif) */
 .banner {
   display: flex;
   width: 100%;
@@ -20,7 +23,7 @@
   height: auto;
   border: 10px dashed black;
 }
-
+/* règles de style pour le conteneur qui permet de faire scroller les Images de la galerie */
 .scrolling-container {
   display: flex;
   overflow: hidden;
@@ -35,7 +38,7 @@
   display: flex;
   animation: scroll 60s linear infinite;
 }
-
+/* règles de style pour les images défillantes */
 .scrolling-images img {
   margin-right: 20px;
   width: 200px;
@@ -47,7 +50,7 @@
   transform: scale(1.1); 
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
 }
-
+/* keyFrames pour le scrolling des images */
 @keyframes scroll {
   0% {
       transform: translateX(0px);
@@ -56,7 +59,7 @@
       transform: translateX(-2200px);
   }
 }
-
+/* adaptabilité */
 @media(max-width: 1105px) {
   .scrolling-container {
       display: flex;

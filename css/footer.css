@@ -1,3 +1,4 @@
+/* le footer n'utilise pas la class global. il as ses propres règles de style et est un conteneur flex*/
 footer {
     width: 100%;
     margin-top: 30px;
@@ -12,7 +13,7 @@ footer {
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Partie gauche : Logos et liens */
+/* premier conteneur du footer */
 .f_1 {
     width: 60%;
     height: 100%;
@@ -20,26 +21,30 @@ footer {
     justify-content: center;
     align-items: center; 
 }
-
+/* conteneur des inforamtions dans le footer */
 .info_logo {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
-
+/* applique des règles de style (positionnement) aux logos (le logo du réseau social discord 
+n'est pas correctement 'scale' parce que l'image a des dimensions differentes 
+aux deux autres */
 .logo {
     display: flex;
     gap: 30px;
     justify-content: space-around;
     align-items: center;
 }
-
+/* applique des règles de style (heuteur et largeur) aux logos (le logo du réseau social discord 
+n'est pas correctement 'scale' parce que l'image a des dimensions differentes 
+aux deux autres */
 .logo-img {
-    height: 100px; /* Hauteur uniforme */
-    width: auto;   /* Largeur calculée automatiquement pour conserver le ratio */
+    height: 100px; 
+    width: auto;   
 }
-
+/* positionnement de l'inforamtion */
 .informations {
     display: flex;
     justify-content: center;
@@ -65,7 +70,7 @@ footer {
     text-decoration: underline;
 }
 
-/* Partie droite : Politique de confidentialité */
+/* règles de style pour la confidentialité */
 .confidentialité {
     display: flex;
     justify-content: center;
@@ -73,7 +78,7 @@ footer {
     width: 80%;
     height: 100%;
 }
-
+/* règles de style pour le paragraphe de la politique de confidentialité */
 .conf_p {
     width: 50%;
     padding: 20px;
@@ -98,6 +103,9 @@ footer {
     line-height: 1.5;
     color: #555;
 }
+
+
+/* addaptabilité pour le footer */
 
 @media(max-width: 1015px) {
     footer {

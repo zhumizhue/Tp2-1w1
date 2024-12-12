@@ -1,3 +1,16 @@
+/* Tous les articles de la section "articles" sont divisés en trois colonnes : .cont_1, .cont_2 et .cont_3. 
+   Chaque colonne utilise la règle de style `flex-direction: column`. 
+   Chaque article est assigné à une classe spécifique suivant cette logique : 
+   `.cont_1_1` pour le premier article de la première colonne, `.cont_1_2` pour le deuxième article de la première colonne, etc.
+
+   J'ai choisi cette structure initiale pour avoir un contrôle précis sur les styles de chaque article, 
+   car je n'étais pas certain de l'apparence finale du layout. 
+   Cependant, j'ai finalement opté pour un layout plus uniforme tout en conservant cette structure, 
+   au cas où je souhaiterais la modifier ou expérimenter à l'avenir. 
+*/
+
+
+/* conteneur flex des articles */
 .article_conteneur{
     display: flex;
     width: 1000px;
@@ -9,6 +22,7 @@
 }
 
 /* conteneur 1 */
+
 .cont_1 {
     height: 80vh;
     display: flex;
@@ -198,7 +212,7 @@
 }
 
 
-
+/* adaptabilité */
 
 @media (max-width: 1105px){
     .article_conteneur{

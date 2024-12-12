@@ -1,3 +1,5 @@
+/* conteneur flex du formulaire */
+
 .form_f{
     display: flex;
     height: 100vh;
@@ -8,12 +10,7 @@
    
 }
 
-.form_c{
-    display: flex;
-    
-    height: 500px;
-    margin: 0 auto;
-}
+/* règles de style pour contact */
 .contact {
     display: flex;
     height: auto;
@@ -33,6 +30,7 @@
     transform: scaleX(-1); 
 }
 
+/* règles de style pour le formulaire */
 form{
     height: 400px;
     width: 500px;
@@ -89,6 +87,8 @@ input[type="message"]::placeholder, textarea::placeholder {
     align-items: center;
     border-radius: 30px;
 }
+
+/* adaptabilité */
 
 @media(max-width :1015px){
     .form_f{

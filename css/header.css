@@ -1,7 +1,4 @@
-header {
-    background-color: black;
-}
-
+/* conteneur flex du header */
 .conteneur_head {
     display: flex;
     flex-direction: column;
@@ -10,6 +7,7 @@ header {
     justify-content: center;
 }
 
+/* informations en bas de la section footer */
 .header_footer {
     display: flex;
     width: 100%;
@@ -40,16 +38,8 @@ header {
     padding: 30px;
 }
 
-.header_footer {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: flex-end;
-    height: 300px;
-    font-size: 1.5rem;
-}
 
-/* Mobile Responsiveness */
+/* adaptabilité */
 @media(max-width: 1105px) {
     .conteneur_head {
         display: flex;

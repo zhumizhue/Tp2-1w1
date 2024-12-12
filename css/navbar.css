@@ -1,4 +1,12 @@
 
+/* navbar*/
+
+/* C'est le seul fichier CSS où j'utilise :root. Je compte probablement l'utiliser davantage à l'avenir, 
+   mais comme je l'ai découvert tard dans le projet, j'ai préféré l'expérimenter uniquement dans ce fichier 
+   pour éviter de devoir tout reprendre dans les autres. 
+*/
+
+
 nav {
     height: 60px;
     display: flex;
@@ -75,6 +83,7 @@ nav svg {
 }
 
 
+/* adaptabilité */
 
 @media (max-width: 900px) {
     .links-container {

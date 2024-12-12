@@ -1,3 +1,9 @@
+/* Permet d'importer tous les fichiers CSS. Je trouve cela beaucoup plus pratique pour m'y retrouver, 
+   car ainsi je n'ai qu'à lier main.css dans index.html, ce qui évite d'avoir un seul fichier style.css 
+   avec 1200 lignes de code. 
+*/
+
+
 @import url(./navbar.css);
 @import url(./header.css);
 @import url(./global.css);
