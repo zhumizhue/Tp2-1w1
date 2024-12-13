@@ -2,7 +2,7 @@
 footer {
     width: 100%;
     margin-top: 30px;
-    height: 30vh;
+    height: 50vh;
     background-color: rgb(245, 245, 245);
     display: flex;
     justify-content: space-between;
@@ -63,6 +63,7 @@ aux deux autres */
     color: #555;
     text-transform: uppercase;
     transition: color 0.3s;
+    
 }
 
 .informations h2:hover {
@@ -75,6 +76,8 @@ aux deux autres */
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 20px;
     width: 80%;
     height: 100%;
 }
